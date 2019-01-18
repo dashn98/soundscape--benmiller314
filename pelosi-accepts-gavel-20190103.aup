@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="pelosi-accepts-gavel-20190103_data" version="1.3.0" audacityversion="2.3.0" sel0="315.4028246707" sel1="315.4028246707" vpos="0" h="254.3003512780" zoom="9.5274483975" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="pelosi-accepts-gavel-20190103_data" version="1.3.0" audacityversion="2.3.0" sel0="233.1728025244" sel1="393.4437617580" vpos="0" h="119.7903488487" zoom="3.3169162252" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags/>
-	<wavetrack name="Mix" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="Mix" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="34415610">
 				<waveblock start="0">
@@ -405,7 +405,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Mix" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="Mix" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="34415610">
 				<waveblock start="0">
@@ -808,9 +808,12 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" numlabels="3" height="159" minimized="0" isSelected="1">
+	<labeltrack name="Label Track" numlabels="6" height="159" minimized="0" isSelected="1">
+		<label t="115.5608463115" t1="116.0856457952" title="alternate start point: we have heard from families who wonder if they have a place in the economy of the future"/>
 		<label t="233.1728025244" t1="243.0291407953" title="climate crisis committee"/>
 		<label t="261.8969883426" t1="288.3682968418" title="why we need it"/>
 		<label t="288.9315161715" t1="296.4834046188" title="no illusions it&apos;ll be easy"/>
+		<label t="298.8208260209" t1="298.8208260209" title="possible end point"/>
+		<label t="393.4437617580" t1="393.4437617580" title="possible ending point"/>
 	</labeltrack>
 </project>
